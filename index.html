@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="../css-reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Login Form Practice</h1>
+
+    <div class="container">
+        <div class="wrapper">
+            <h5>Login</h5>
+            <form action="post">
+                <label for="username">UserName</label>
+                <input id="username" type="text" name="username" autofocus autocomplete="off">
+
+                <label for="email">Email address</label>
+                <input id="email" type="email" name="email" autocomplete="off">
+
+                <label for="password">Password</label>
+                <input id="password" type="password" name="password" autocomplete="off">
+                <input id="verify" type="password" name="verify" autocomplete="off" placeholder="verify password"><br>
+        </div>
+
+        <button name="button" type="submit" class="button">Log in</button>
+        <button name="button" type="reset" class="button">Cancel</button>
+        </form>
+
+    </div>
+</body>
+
+</html>
